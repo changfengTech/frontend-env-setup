@@ -1,6 +1,9 @@
 # ============================================
 # 开发环境配置脚本 (Windows PowerShell)
 # ============================================
+# 使用方法（以管理员身份运行 PowerShell）：
+#   irm https://raw.githubusercontent.com/majialu-love-zouyutong/frontend-env-setup/main/frontend-env-setup-win.ps1 | iex
+# ============================================
 
 #Requires -RunAsAdministrator
 

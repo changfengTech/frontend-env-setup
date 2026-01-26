@@ -2,7 +2,10 @@
 # shellcheck shell=bash disable=SC2296,SC2299,SC2086
 
 # ============================================
-# 开发环境配置脚本
+# 开发环境配置脚本 (macOS)
+# ============================================
+# 使用方法：
+#   curl -fsSL https://raw.githubusercontent.com/majialu-love-zouyutong/frontend-env-setup/main/frontend-env-setup.sh | zsh
 # ============================================
 
 # 严格模式：遇到错误退出，管道错误传递

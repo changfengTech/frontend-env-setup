@@ -55,12 +55,10 @@
 
 ### macOS
 
-```bash
-# 添加执行权限
-chmod +x frontend-env-setup.sh
+打开终端，执行以下命令即可一键安装：
 
-# 运行脚本
-./frontend-env-setup.sh
+```bash
+curl -fsSL https://raw.githubusercontent.com/majialu-love-zouyutong/frontend-env-setup/main/frontend-env-setup.sh | zsh
 ```
 
 ### Windows
@@ -71,8 +69,8 @@ chmod +x frontend-env-setup.sh
 # 如果遇到执行策略限制，先执行：
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
-# 运行脚本
-.\frontend-env-setup-win.ps1
+# 一键安装
+irm https://raw.githubusercontent.com/majialu-love-zouyutong/frontend-env-setup/main/frontend-env-setup-win.ps1 | iex
 ```
 
 ## 脚本特性
