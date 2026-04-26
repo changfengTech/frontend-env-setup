@@ -469,7 +469,7 @@ print ""
 log_info "3. 前往 App Store 安装以下推荐应用："
 print -P "   ${FG_CYAN}• Keynote${RESET} - 演示文稿制作"
 print -P "   ${FG_CYAN}• DaVinci Resolve${RESET} - 专业视频剪辑"
-print -P "   ${FG_CYAN}• iRightMouse${RESET} - 右键菜单增强"
+print -P "   ${FG_CYAN}• Rclick${RESET} - 右键菜单增强"
 print ""
 
 log_info "日志已保存到: $LOG_FILE"
